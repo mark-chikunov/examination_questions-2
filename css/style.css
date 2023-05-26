@@ -1,0 +1,114 @@
+html {
+    /*height: 100%;*/
+    width: 1518px;
+}
+
+body {
+    background-image: url('../img/web-ready/back.jpg');
+    /*margin: 1cm 2cm 2cm 2cm;*/
+    margin: 2cm 151.5px 2cm 151.5px;
+    width: 1215px;
+}
+
+ol.link_1 {
+    list-style-type:  none;
+    color: white;
+    overflow-wrap:break-word;
+    overflow-x: hidden;
+}
+
+ol li {
+    display: inline;
+}
+
+ol.link_1 li {
+    display: block;
+    float: left;
+    font-size: 17px;
+    text-decoration: none
+}
+
+.text {
+    display: inline-block;
+    width: 1215px;
+    position:relative;
+    right: center;
+    top: center;
+    /*left : center;*/
+    color : white;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3cm 3cm 3cm 3cm;
+    border-radius: 50px 50px 50px 50px; 
+    margin: 0cm 0cm 2cm 0cm;
+}
+
+.text_3 {
+    overflow-x: hidden;
+    margin: 0cm 0cm 2cm 0cm;
+}
+
+ .v button {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px 50px 50px 50px; 
+    margin-top: 1cm;
+    height: 1cm;
+    width: 100%;
+    color: white;
+    padding: 10px 20px 35px 20px;
+    text-align: center;
+    text-decoration: none;
+    position:relative;
+    right: center;
+    top: center;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+.text_1 {
+    text-align: center;
+    font-size: 15px;
+    width: 1215px;
+    color : white;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    /*justify-content: center;*/
+    position: relative;
+    border: 3cm 3cm 3cm 3cm;
+    border-radius: 50px 50px 0px 0px;
+    
+    }
+
+.text_2 {
+    text-align: left;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.95);
+    display:inline-block;
+    /*overflow-x: hidden; */ 
+    border: 3cm 3cm 3cm 3cm;
+    border-radius: 0px 0px 0px 0px;
+    position:relative;
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-bottom: 0.5cm;
+    
+    /*overflow-wrap:break-word;*/
+    word-break: break-all;
+    /*overflow-x: hidden;*/
+}
+.link {
+    text-align: left;
+    font-size: 15px;
+    color : white;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    width: 100%;
+    position:relative;
+    border: 3cm 3cm 3cm 3cm;
+    border-radius: 0px 0px 50px 50px;
+    padding-top: 0.5cm;
+    padding-left: 0cm;
+    padding-right: 0cm;
+    padding-bottom: 0.5cm;
+}
